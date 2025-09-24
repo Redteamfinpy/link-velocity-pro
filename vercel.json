@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "src/app/api/**/*.ts": {
+      "maxDuration": 10
+    }
+  },
+  "regions": ["iad1"],
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "env": {
+    "NEXT_PUBLIC_BASE_URL": "@next_public_base_url"
+  }
+}
